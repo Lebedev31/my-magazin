@@ -1,0 +1,16 @@
+.recommendedProducts{
+    margin-top: 35px;
+    h2{
+        font-size: 35px;
+        text-align: center;
+    }
+    .recommendedProducts__block{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 380px;
+        gap: 20px;
+    }
+
+   
+
+}

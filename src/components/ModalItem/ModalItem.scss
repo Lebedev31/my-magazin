@@ -1,0 +1,38 @@
+
+    .modal__item{
+        height: 90px;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
+        position: relative;
+
+        .cross{
+            width: 25px !important;
+            height: 25px !important;
+        }
+        h3{
+            margin-top: 0;
+        }
+        .modal__price{
+            width: 160px;
+            height: 20px;
+            font-size: 18px;
+            text-align: center;
+            text-transform: uppercase;
+            text-align: left;
+        }
+
+        .modal__counter{
+            width: 90px;
+            height: 30px;
+            display: flex;
+            border: 2px solid black;
+            .modal__counter-item{
+                width: 30px;
+                text-align: center;
+                padding-top: 5px;
+                cursor: pointer;
+            }
+        }
+
+        
+    }
